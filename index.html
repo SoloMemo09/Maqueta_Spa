@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Chin Cervera</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+  <div class="ancho margen barra"></div>
+
+  <div class="contenedor1">
+  <img class="logo" src="./imgs/logocabecera.jpg" alt="Spa Salon Logo">
+  
+  <div class="contenedor-redes">
+    <img class="redes" src="./imgs/icono_facebook.jpg" alt="Facebook">
+    <img class="redes" src="./imgs/icono_instagram.jpg" alt="Instagram">
+    <img class="redes" src="./imgs/icono_twitter.jpg" alt="Twitter">
+  </div>
+</div>
+
+  <div class="contenedor2 ancho margen">
+    <div class="navbar">
+
+      <a href="#">GALERIA</a>
+      <a href="#">PRECIOS</a>
+      <a href="#">CONTACTANOS</a>
+      <a href="#">EQUIPO</a>
+    </div>
+  </div>
+  <br>
+
+  <div class="fondo1 ancho margen">
+
+    <h1 class="Marzo">
+     PROMOCIONES DE MARZO
+    </h1>
+    <br>
+    <p class="parrafo1">
+      Se acerca la epoca de playa y por eso preparamos estas dos promociones ideales para ti.
+    </p>
+    <br>
+    <div class="ancho margen botones">
+    <a href="#" class="Sol">Solicitar Promoción</a>
+    <a href="#" class="Ver">Ver Video</a>
+  </div>
+  </div>
+
+  <div class="contenedor3 ancho margen">
+
+    <div class="info1">
+
+    <h3 class="titulo2">
+      Los productos Science of Beauty
+    </h3>
+    <br>
+    <p class="parrafo2">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium consequuntur labore, hic possimus maxime, obcaecati iusto molestiae temporibus molestias, impedit illo doloremque. Maiores adipisci debitis eum ratione sapiente eaque! Eligendi!
+    </p>
+
+    </div>
+
+    <div class="contenido_img">
+      <img src="./imgs/fotovelas.jpg" alt="">
+    </div>
+  </div>
+  <br>
+
+ <div class="contenedor4 ancho margen">
+    <h3 class="titulo3">Buscamos talento para integrarlos a nuestro equipo</h3>
+    
+    <div class="contenido-flex">
+      <div class="contenido-imagen2">
+        <img src="./imgs/fotoaromatizante.jpg" alt="">  
+      </div>
+
+      <div class="info2">
+        <h4 class="titulo4">Puesto de trabajo para recepcionista</h4>
+        <p class="parrafo3">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium dignissimos aliquid explicabo praesentium eveniet consectetur iusto cumque similique expedita beatae!
+        </p>
+
+        <h4 class="titulo4">Puesto de trabajo para Masajista</h4>
+        <p class="parrafo3">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium dignissimos aliquid explicabo praesentium eveniet consectetur iusto cumque similique expedita beatae!
+        </p>
+
+        <h4 class="titulo4">Puesto de trabajo para Nutriologo</h4>
+        <p class="parrafo3">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium dignissimos aliquid explicabo praesentium eveniet consectetur iusto cumque similique expedita beatae!
+        </p>
+      </div>
+    </div>
+</div>
+<br>
+
+<div class="contenedor5 ancho margen">
+
+  <div class="info3">
+    <h1 class="titulo5">
+      Recibe noticias y promociones de SPA SALON
+    </h1>
+    
+    <p class="parrafo4">
+      Un lugar para consentirte de pies a cabeza 
+      Servicio de salón estética y Spa personalizado
+    </p>
+
+
+   
+    <p>
+      <span class="rosita">TELEFONO:</span> 999 420 8871
+    </p>
+    <p>
+      <span class="rosita">CORREO:</span> info@spasalon.com
+    </p>
+
+     <div class="form">
+      <form id="formulario_contacto" action="">
+        <label class="em" for="email">Email:</label>
+        <input  type="email" id="email" name="email" placeholder="tunombre@example.com">
+        <button id="btn_validar" class="boton" type="button">Enviar</button>
+      </form>
+    </div>
+
+  </div>
+
+  <div class="contenido-video">
+    <h1>Nuestras instalaciones</h1>
+    <br><br><br>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/w4qaODLR_Xg" title="SPA RECEPTION INTERIOR DESIGN - SPA HOA PHAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+
+</div>
+<div class="FINAL ancho margen">
+  <img class="loguito" src="./imgs/logo_spa.png" alt="Logo Spa">
+  
+  <div class="datos">
+    <p>Carlos Guillermo Chin Cervera</p>
+    <p>Programación Web</p>
+    <p>7SB</p>
+  </div>
+</div>
+
+
+   <div class="ancho margen barra"></div>
+
+
+ <script type="text/javascript">
+    $("#btn_validar").click(function(){
+     
+      if ($("#email").val() == ""){
+        alert("El campo email es obligatorio");
+        $("#email").focus();
+        return false;
+        }
+      document.getElementById("formulario_contacto").submit();
+    });
+  </script>
+
+
+
+
+
+
+
+</body>
+</html>

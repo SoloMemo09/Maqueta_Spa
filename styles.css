@@ -1,0 +1,326 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+
+.ancho {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.margin {
+  padding: 15px;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.barra {
+  background-color: #ff3281;
+  height: 5px;
+  
+}
+
+.contenedor1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 3%;
+}
+
+.logo {
+  width: 10%;
+  margin-left: 15%;
+}
+
+.contenedor-redes {
+  display: flex;
+  gap: 5%; 
+  margin-right: 15%;
+}
+
+.redes {
+  width: 35%;
+}
+
+.contenedor2 {
+  border: #000000 2px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  width: 1200px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-family: helvetica;
+  font-size: 14px;
+}
+
+.fondo1{
+  background-image: url(imgs/fondopiedras.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  border: 1px black solid;
+}
+
+.Marzo{
+  text-align: center;
+  font-size: 30px;
+  font-family: helvetica;
+  margin-top: 100px;
+  padding: 0px 260px;
+  line-height: 1.2;
+  color: white;
+}
+
+.parrafo1{
+  text-align: center;
+  font-size: 20px;
+  font-family: helvetica;
+  padding: 0px 200px;
+  line-height: 1.5;
+  color: white;
+}
+
+.botones{
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  margin-bottom: 100px;
+}
+
+.Sol{
+  background-color: #ff3281;
+  padding: 15px 60px;
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.Ver{
+  background-color: transparent;
+  border: 2px solid #ff3281;
+  color: white;
+  padding: 12px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contenedor3{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 0% 5%;
+  background-color: #f5f5f5;
+}
+
+.info1{
+  flex: 1;
+  max-width: 50%;
+}
+
+.titulo2{
+  font-size: 28px;
+  color: #000000;
+  margin-top: 0%;
+  font-weight: bold;
+}
+
+.parrafo2 {
+  font-size: 16px;
+  line-height: 2;
+  color: #000000;
+}
+
+.contenido-imagen {
+  flex: 1;
+  max-width: 50%;
+}
+
+.contenedor4{
+  background-color: #FFF9F1;
+}
+
+.contenido-flex {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.contenido-imagen2 {
+  flex: 1;
+  max-width: 40%;
+}
+
+.contenido-imagen2 img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.info2 {
+  flex: 1;
+  max-width: 60%;
+}
+
+.titulo3 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+}
+
+.titulo4 {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.titulo4:first-child {
+  margin-top: 0;
+}
+
+.parrafo3 {
+  margin-bottom: 20px;
+}
+
+.rosita
+{
+ color: #ff3281;
+}
+
+
+.contenedor5 {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.info3 {
+  flex: 1;
+}
+
+.titulo5 {
+  margin-bottom: 20px;
+}
+
+.parrafo4 {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.form {
+  margin: 20px 0;
+}
+
+.form form {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.form input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  flex: 1;
+}
+
+.rosita {
+  color: #e91e63;
+  font-weight: bold;
+}
+
+.contenido-video {
+  flex: 1;
+  max-width: 50%;
+}
+
+.form {
+  border: 3px solid #e91e63;
+  padding: 30px;
+  margin: 30px 0;
+}
+
+.form form {
+  display: block;
+}
+
+.form .em {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.form input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.form .boton {
+  background-color: #000;
+  color: white;
+  padding: 12px 40px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.form .boton:hover {
+  background-color: #333;
+}
+
+.FINAL {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.loguito {
+  width: 150px;
+  height: auto;
+}
+
+.datos {
+  text-align: right;
+}
+
+.datos p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+
+
+
